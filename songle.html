@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Songle</title>
+    <link rel="stylesheet" href="songle.css">
+</head>
+<body id="end">
+    <h1>Songle</h1>
+    
+    <div>
+        <input type = "submit" value = "Start" id = "start">
+        <input type = "submit" value = "Reset" id = "reset">
+        <br>
+        <br> 
+        <img src = "playPause.png" id = "togglePlay" width = "50" height = "50">
+        <br>
+        <br>
+        <p>Number of Guesses: </p>
+        <p id = "numGuesses">0</p>
+        <br>
+    </div>
+    
+    <div class = "form">
+        <label for = "guessField">Enter a guess: </label>
+        <br> 
+        <input type = "text" id = "guessField" class = "guessField">
+        <input type = "submit" id = "submitGuess" class = "guessField">
+    </div>
+
+    <div>
+        <br>
+        <p id = "guess1">_____</p>
+        <br>
+        <p id = "guess2">_____</p>
+        <br>
+        <p id = "guess3">_____</p>
+        <br>
+        <p id = "guess4">_____</p>
+        <br>
+        <p id = "guess5">_____</p>
+        <br>
+    </div>
+
+    <br>
+    <p id = "answerLabel"> </p>
+    <p id = "song"> </p>
+    <br>
+
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+    
+    <script src = "songle.js"></script>
+</body>
+</html>
